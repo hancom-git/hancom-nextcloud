@@ -1,13 +1,13 @@
 # Hancom Office Connector for Nextcloud app
 
-This app enables users to edit office documents from [Nextcloud](https://nextcloud.com) using Hancom Office Online.
+This app enables users to edit office documents collaboratively from [Nextcloud](https://nextcloud.com) using Hancom Office Online.
 
 ## Features
 
 The app allows to:
 
 * Create and edit text documents, spreadsheets, and presentations.
-* Collaborative edit shared documents in real-time.
+* Collaborative edit of shared documents in real-time.
 
 Supported formats: DOC, DOCX, CELL, XLS, XLSX, SHOW, PPT, PPTX.
 
@@ -18,7 +18,7 @@ Supported formats: DOC, DOCX, CELL, XLS, XLSX, SHOW, PPT, PPTX.
 The Nextcloud administrator can install the integration app from the in-built application market.
 For that go to the user name and select **Apps**.
 
-After that find **Hancom Office Online** in the list of available applications and install it.
+After that find **Hancom Office** in the list of available applications and install it.
 
 ### Manual install
 
@@ -31,11 +31,11 @@ There are several ways to do that:
 
     a. Download the latest signed version from the official store for [Nextcloud](https://apps.nextcloud.com/apps/##id).
 
-    b. Or you can download the latest signed version from the application [release page](https://github.com/hancom/hancomoffice-nextcloud/releases) on GitHub.
+    b. Or you can download the latest signed version from the application [release page](https://github.com/hancom-git/hancom-nextcloud/releases) on GitHub.
 
     c. Or you can clone the application source code and compile it yourself: 
     ```
-    git clone https://github.com/hancom/hancomoffice-nextcloud.git hancomoffice
+    git clone https://github.com/hancom-git/hancom-nextcloud.git hancomoffice
     ```
 
 1. Change the owner to update the application right from Nextcloud web interface:
@@ -49,7 +49,7 @@ There are several ways to do that:
 You will need an instance of Hancom Office Online. Then you will need to add server address to Nextcloud config whitelist.
 ```
   'trusted_domains' => array (
-    0 => 'asmoth.synology.me:8090',
+    0 => 'mydomain.address.me:8090',
   ),
 ```
 
